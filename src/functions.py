@@ -166,7 +166,7 @@ class meme:
         )
 
         await edit_admin_message(message_id=message_id, chat_id=GroupID, type=type, reply_markup=rethinKb,
-        caption=f"{caption}\n\n❌ Declined by [{name}](tg://user?id={adminId})")
+        caption=f"{caption}\n\n❌ Declined by [{adminName}](tg://user?id={adminId})")
 
         save_data()
 
